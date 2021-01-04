@@ -18,8 +18,6 @@ jobs:
         with:
           entrypoint: /usr/bin/make
           args: readme/lint
- Super Linter is not ready for production
- The go linter has a bug, terrascan does not work right
   super-linter:
     name: superlinter
     runs-on: ubuntu-latest
